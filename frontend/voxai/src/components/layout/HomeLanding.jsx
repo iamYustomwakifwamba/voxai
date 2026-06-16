@@ -1,6 +1,7 @@
 import { AudioLines, Briefcase, Zap } from "lucide-react"
+import { Link } from "react-router-dom"
 
-function HomeLandingComponent () {
+function HomeLandingLayout () {
     return (
         <div className="bg-stone-800">
             <div className="mt-[3cm]">
@@ -15,7 +16,7 @@ function HomeLandingComponent () {
                 <p className="text-center text-neutral-400 text-2xl">Jinglify helps traders, entrepreneurs, and small businesses create <br /> studio-quality branded audio in seconds. Just type, pick a vibe, <br /> and play.</p>
             </div>
             <div className="flex justify-center mt-4">
-                <p className=" border bg-amber-500  px-6 py-2 inline-block mx-auto rounded-full">Try It Now</p>
+                <p className=" border bg-amber-500  px-6 py-2 inline-block mx-auto rounded-full"><Link to={'/trial'}>Try It Now</Link></p>
             </div>
 
             <div className="mt-5">
@@ -56,4 +57,4 @@ function HomeLandingComponent () {
     )
 }
 
-export default HomeLandingComponent
+export default HomeLandingLayout
