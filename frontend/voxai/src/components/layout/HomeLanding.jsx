@@ -16,7 +16,7 @@ function HomeLandingLayout () {
                 <p className="text-center text-neutral-400 text-2xl">Jinglify helps traders, entrepreneurs, and small businesses create <br /> studio-quality branded audio in seconds. Just type, pick a vibe, <br /> and play.</p>
             </div>
             <div className="flex justify-center mt-4">
-                <p className=" border bg-amber-500  px-6 py-2 inline-block mx-auto rounded-full"><Link to={'/trial'}>Try It Now</Link></p>
+                <p className=" border bg-amber-500  px-6 py-2 inline-block mx-auto rounded-full hover:scale-105 transition"><Link to={'/trial'}>Try It Now</Link></p>
             </div>
 
             <div className="mt-5">

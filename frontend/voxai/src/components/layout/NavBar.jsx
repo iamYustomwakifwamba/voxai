@@ -15,7 +15,7 @@ function NavigationBarLayout () {
             </div>
             <div className="flex gap-5">
                 <p className="text-white"><Link>Sign up</Link></p>
-                <p className="bg-amber-500 px-5 rounded"><Link>Login</Link></p>
+                <p className="bg-amber-500 px-5 rounded"><Link to={"/login"}>Login</Link></p>
             </div>
         </div>
     )
